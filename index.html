@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	
+		<title>When We Were Young</title>
+	
+	</head>
+
+	<body>
+
+		<!-- It is almost always a good idea to have a large div wrap out the entire contents of your html body. In this example, that div is "container" This will make placement of other HTML elements easier. -->
+
+		<div class="container">
+			<img class="concrete" src="images/concrete pattern.jpg">
+
+			 <!-- Navigation Bar  -->
+
+			  <!-- In order to build our nav bar, use lists. <ul> is basically the container of the list and <li> is a single element in the list.
+
+			  To insert a link in the nav bar, simply put an anchor tag <a> inside a <li>. 
+
+			  For the link's href, we use id's which is another CSS selector (ID uses "#" as opposed to a class's ".". This makes sure that clicking on a link will automatically sroll down to a specific section.
+
+			  Finally, notice how our HTML is divided used <section> instead of <div>.-->
+
+			<section class="navigation">
+				<ul>
+					<li><a href="#five">About</a></li>
+					<li><a href="#four">Help</a></li>
+					<li><a href="#three">Socials</a></li>
+					<li><a href="#two">Tickets</a></li>
+					<li><a href="#one">Home</a></li>
+					<li><a class="icon" href="#home"></a></li>
+				</ul>
+			</section>
+
+			 <!-- Hero Image  -->
+			<section class="home" id="home">
+				<h1>Returning in 2025!</h1>
+				<h6>October 18th & 19th, 2025</h6>
+				<h5>Las Vegas Festival Grounds</h5>
+				<h4>Scroll Down</h4>
+				<a class="link" href="https://whenwewereyoung.frontgatetickets.com/waitlist" target="_blank">Purchase Tickets Here!</a>
+			</section>
+
+			 <!-- First Section  -->
+			<section class="one" id="one">
+				<div class="blink">
+					<div class="blinkimg"></div>
+					<p class="blinktxt">Blink-182</p>
+				</div>
+				
+				<!-- <div class="containerblink"></div>  -->
+				
+				<p class="panic"></p>
+				<p class="panicimg"></p>
+				<p class="panictxt">Panic! At The Disco</p>
+				<p class="weezer"></p>
+				<p class="weezerimg"></p>
+				<p class="weezertxt">Weezer</p>
+				<p class="lavigne"></p>
+				<p class="lavigneimg"></p>
+				<p class="lavignetxt">Avril Lavigne</p>
+				<p class="offspring"></p>
+				<p class="offspringimg"></p>
+				<p class="offspringtxt">The Offspring</p>
+				<p class="featured">Featured Performances</p>
+				<a class="lineup" href="https://whenwewereyoung.frontgatetickets.com/waitlist" target="_blank">See Full Lineup</a>
+			</section>
+
+			 <!-- Second Section  -->
+			<section class="two" id="two">
+				<h2>Chapter Two</h2>
+			</section>
+
+			 <!-- Third Section  -->
+			<section class="three" id="three">
+				<h3>Chapter Three</h3>
+			</section>
+
+			 <!-- Fourth Section  -->
+			<section class="four" id="four">
+				
+			</section>
+
+			 <!-- Fifth Section  -->
+			<section class="footer" id="five">
+				
+			</section>
+
+		</div>
+
+	</body>
+
+</html>
